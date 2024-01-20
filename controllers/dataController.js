@@ -1,4 +1,4 @@
-const DataModel = require("../models/DataModel");
+const DataModel = require("../models/dataModel");
 const csv = require("csv-parser");
 const fs = require("fs");
 
@@ -73,7 +73,6 @@ const importCsvData = async (req, res) => {
             },
           };
           dataArray.push(transformedData);
-          console.log(dataArray);
         }
       })
       .on("end", async () => {
