@@ -1,5 +1,5 @@
 const { default: mongoose } = require("mongoose");
-const { Stocks, stocksSchema } = require("./StocksModel");
+const { Stocks, stocksSchema } = require("./stocksModel");
 
 const dataSchema = new mongoose.Schema(
   {
