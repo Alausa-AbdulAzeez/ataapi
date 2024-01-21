@@ -10,11 +10,11 @@ const dataSchema = new mongoose.Schema(
     },
   },
   {
-    timestamps: true, // This option adds createdAt and updatedAt fields
+    timestamps: true, // This  adds createdAt and updatedAt fields
   }
 );
 
-// Create a model based on the data schema
+// Define models and export
 const DataModel = mongoose.model("Data", dataSchema);
 
 module.exports = DataModel;

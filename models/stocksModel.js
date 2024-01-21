@@ -14,7 +14,7 @@ const stocksSchema = new mongoose.Schema(
     alternative: { type: String, default: "0%" },
   },
   {
-    timestamps: true, // This option adds createdAt and updatedAt fields
+    timestamps: true, // This adds createdAt and updatedAt fields
   }
 );
 
